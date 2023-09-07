@@ -1,0 +1,19 @@
+thead{
+    background-color: rgb(182, 228, 213);
+}
+
+.rankzero, .rankplus, .rankminus{
+    text-align: right;
+}
+
+.rankzero{
+    color : gray;
+}
+
+.rankplus{
+    color : red;
+}
+
+.rankminus{
+    color : blue;
+}
