@@ -117,6 +117,12 @@ document.addEventListener("DOMContentLoaded", () => {
     sel1.addEventListener("change", () => {
         if (!dt.value) return;
         getData(dt, divCon, sel1);
+        let url = "https://apis.data.go.kr/1741000/HeatWaveShelter2/getHeatWaveShelterList2";
+        let key = "?serviceKey=ewEZSCK5Wyu9bQtvqiyfNO7gZQ097cEFt4Vf7SYjop4Ba3etdnHJdvXHv4sEg0AcsMhQzVCOLocFZw5yhgnrgg%3D%3D";
+        let option = "&pageNo=1&numOfRows=10&type=json&year=2023";
+        let areaCd = "&areaCd=";
+        url = url + key + option;
+        &equptype=001
     })
 })
 
